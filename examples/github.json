@@ -1,0 +1,20 @@
+{
+	"concurrency": 2,
+	"color": "blue",
+	"name": "github search",
+	"session": {
+		"server": "https://github.com",
+		"calls": [
+			{
+				"method": "GET",
+				"uri" : "/",
+				"comment" : "home page visit"
+			},
+			{
+				"method": "GET",
+				"uri" : "/search?utf8=%E2%9C%93&q=benchmark",
+				"comment" : "search benchmarking tools"
+			}
+		]
+	}
+}

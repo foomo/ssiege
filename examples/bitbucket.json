@@ -1,0 +1,20 @@
+{
+	"concurrency": 1,
+	"color": "green",
+	"name": "bitbucket search",
+	"session": {
+		"server": "https://bitbucket.org",
+		"calls": [
+			{
+				"method": "GET",
+				"uri" : "/",
+				"comment" : "home page visit"
+			},
+			{
+				"method": "GET",
+				"uri" : "/repo/all?name=benchmark",
+				"comment" : "search benchmarking tools"
+			}
+		]
+	}
+}

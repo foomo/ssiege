@@ -1,0 +1,28 @@
+body {
+	font-family: Helvetica;
+	margin:0;
+	padding:0;
+	padding-right: 50px;
+}
+
+.legend {
+	margin-left: 50px;
+	padding: 1em 0;
+}
+
+.legend span {
+	padding: 0.5em 1em;
+	margin-right: 0.5em;
+	color: white;
+}
+
+h1, h2 {
+	margin-left: 50px;
+	color: #848484;
+	font-weight: normal;
+	font-size: 1em;
+}
+
+.chart-container {
+
+}
