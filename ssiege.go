@@ -12,10 +12,20 @@ import (
 
 func main() {
 
+	usage := func() {
+		fmt.Println("Usage: just call me with a list of benchmark files - see the examples")
+	}
+
+	if len(os.Args) < 2 {
+		fmt.Println("nothing to do")
+		usage()
+		os.Exit(1)
+	}
+
 	// we do not have flags yet ...
 	for _, arg := range os.Args[1:] {
 		if arg == "-help" {
-			fmt.Println("Usage: just call me with a list of benchmark files - see the examples")
+			usage()
 			return
 		}
 	}
