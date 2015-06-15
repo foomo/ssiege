@@ -1,7 +1,7 @@
 .*
 !.git*
 
-/benchmark/bindata.go
+/bin/*
 
 # Folders
 _obj
