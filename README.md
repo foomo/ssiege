@@ -1,6 +1,6 @@
 # About
 
-Session siege **ssiege** is a http benchmarking and load testing utility with session support. It tries to fill the gap between [ab](//httpd.apache.org/docs/current/programs/ab.html),  [siege](//www.joedog.org/siege-home/) and [jmeter](//jmeter.apache.org jmeter).
+Session siege **ssiege** is a http benchmarking and load testing utility with session support. It tries to fill the gap between [ab](//httpd.apache.org/docs/current/programs/ab.html),  [siege](//www.joedog.org/siege-home/) and [jmeter](//jmeter.apache.org/).
 
 We wrote it, because ab and siege do not support sessions and jmeter is too complicated.
 
